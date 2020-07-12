@@ -83,13 +83,14 @@ $ eb setenv SERVER_PORT=5000
 eb status
 ```
 
+
 Utilizando o Postgress localmente com o docker:  
 
 Criar o container: docker run -it --name postgres -e POSTGRES_PASSWORD=root -p 5433:5432 -d postgres  
 Acessar o container: docker exec -it postgres bash
 Acessando o banco: psql -U postgres  
 
-Comandos básicos: 
-acessar a base de dados: \c codeblog   
-listar tabelas: \d
-descrição da tabela: \d tb_post;
+Comandos básicos:   
+acessar a base de dados: \c codeblog     
+listar tabelas: \d  
+descrição da tabela: \d tb_post;  
