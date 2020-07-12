@@ -95,3 +95,7 @@ nb-configuration.xml
 ## Others X
 ##############################
 HELP.md
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
